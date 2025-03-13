@@ -2,14 +2,16 @@
   <img src="#TSJ.svg" alt="Java Tec Day" width="200"/>
 </p>
 
-# 🚀 JAVA TEC DAY 07.03.25
+# 🚀 Techday 2025 Zapopan 09.05.25
 
 ---
 
 ## 📢 CONFERENCIAS
+📍 *En el Edificio C Oficinas del Redi*
+
 | 🕒 Horario | 🗣️ Tema | 👨‍🏫 Ponente |
 |:------------:|:-------------------------:|:------------------------:|
-| **8:15** | **Inauguración del evento** | - |
+| **8:15** | **Inauguración del evento Edificio L ** | Academia ISC |
 | **8:30** | **12 cosas que aprendí en 12 años** | *Juan Carlos Sedano Salas* |
 | **9:00** | **Cómo obtener el trabajo y pasar la entrevista técnica** | *Daniel Góngora* |
 | **9:30** | **Tú no eres tu código** | *Sinuhe Jaime Valencia* |
@@ -19,7 +21,7 @@
 ---
 
 ## 🛠️ TALLERES SIMULTÁNEOS
-📍 *A partir de las 12:00 en el Edificio V*
+📍 *A partir de las 12:00 en el Edificio L*
 
 | 💼 Taller | 👨‍🏫 Ponente |
 |:-----------------------------:|:------------------------------:|
