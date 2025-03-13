@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="TSJ.jpg" alt="Java Tec Day" width="200"/>
+  <img src="TSJ.jpg" alt="Java Tec Day" width="600"/>
 </p>
 
 # 🚀 Techday 2025 Zapopan 09.05.25
