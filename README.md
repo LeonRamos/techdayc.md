@@ -36,7 +36,7 @@
 
 ---
 
-📝 **Evento organizado por el Departamento de Sistemas y Computación**
+📝 **Evento organizado por el TSJ Zapopan y la academia ISC**
 
-📅 **07/03/2025**
+📅 **09/05/2025**
 
