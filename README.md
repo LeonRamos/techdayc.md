@@ -1,3 +1,7 @@
+<br>
+<div style="background-color:#d4edda; border-left:5px solid #28a745; padding:10px; margin-bottom:15px;">
+  <strong>¡Gracias por participar en la edición 2024! ¡Nos vemos el próximo año!</strong>
+</div>
 <p align="center">
   <img src="TSJ.jpg" alt="Java Tec Day" width="600"/>
 </p>
