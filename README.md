@@ -11,7 +11,7 @@
 ---
 
 ## 📢 CONFERENCIAS
-📍 *En el Edificio C Oficinas del Redi*
+📍 *En el Edificio L Sistemas*
 
 | 🕒 Horario | 🗣️ Tema | 👨‍🏫 Ponente |
 |:------------:|:-------------------------:|:------------------------:|
@@ -25,7 +25,7 @@
 ---
 
 ## 🛠️ TALLERES SIMULTÁNEOS
-📍 *A partir de las 12:00 en el Edificio L*
+📍 *A partir de las 12:00 en el Edificio L Sistemas*
 
 | 💼 Taller | 👨‍🏫 Ponente |
 |:-----------------------------:|:------------------------------:|
