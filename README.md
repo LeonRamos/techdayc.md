@@ -7,6 +7,7 @@
 </p>
 
 # 🚀 Techday 2025 Zapopan 09.05.25
+[REGISTRO](https://docs.google.com/forms/u/0/d/e/1FAIpQLSfhzozrREmPeazCNkmezwaUZDkKh3tbY8JYTrMuXHK8nEM-Xg/viewform?pli=1)
 
 ---
 
