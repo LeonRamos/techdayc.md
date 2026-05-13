@@ -8,8 +8,9 @@
 </p>
 
 # Techday 2026 Zapopan 28.05.26
-[REGISTRO <------ AQUÍ]()
+## [REGISTRO <------ AQUÍ](https://forms.gle/TuuN6CB5kGeCkYbu8)
 
+## [ENCUESTA DE PARTICIPACIÓN <------ AQUÍ](https://forms.gle/U7kh5zRiP5eq29es6)
 ---
 
 ##  CONFERENCIAS
