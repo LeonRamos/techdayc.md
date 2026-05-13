@@ -25,7 +25,7 @@ Edificio "L" Laboratorios de Sistemas*
   <img src="https://scontent-qro1-2.xx.fbcdn.net/v/t39.30808-6/302440543_523645689763563_6615114239918510135_n.png?_nc_cat=101&ccb=1-7&_nc_sid=cc71e4&_nc_eui2=AeET2oCqgzl0cY89Zq_6EuY-vpgm11ZNwVm-mCbXVk3BWTgKG3Xcn9IMH0h3xUamPaFVyqgkvl4NOO1fQhIT3Jgq&_nc_ohc=V19Ohn-OcsoQ7kNvwFxvzWJ&_nc_oc=AdrhEa0QO-v_4ELLlP9KNqEE5OCru1hBqumXZEeUmR-qyv9IaDoAsPrUBNpli9aPFWw&_nc_zt=23&_nc_ht=scontent-qro1-2.xx&_nc_gid=lkHi24VTMMIE6k3aNDIZ2Q&_nc_ss=7b2a8&oh=00_Af6H3su7VBMJc-tKbfMfBqYFM7KyrpPDaTCEwgpTFwhpTw&oe=6A0A4085" alt="GDL Dev Comms" width="600"/>
 </p>
 
-##  ¡TALLERES SIMULTÁNEOS!
+##  ¡TALLERES SIMULTÁNEOS 9:00 am a 12:00 pm!
 Edificio "L" Laboratorios de Sistemas*
 
 ---
