@@ -30,7 +30,7 @@ Edificio "L" Laboratorios de Sistemas*
 
 ---
 
-### 🧪 Taller 1 – Laboratorio **LIA**
+###  Taller 1 – Laboratorio **LIA**
 **Tu primera app mobile**  
 **Ponente:** Sinuhe Jaime Valencia  
 
@@ -49,7 +49,7 @@ Taller práctico orientado a estudiantes que desean iniciar en el desarrollo de 
 
 ---
 
-### 🧪 Taller 2 – Laboratorio **LTI**
+###  Taller 2 – Laboratorio **LTI**
 **GitHub Copilot and Claude, from the beginning to build a small service**  
 **Ponentes:** Orlando Cano, Christian Gómez  
 
@@ -71,7 +71,7 @@ Introducción al uso de herramientas de inteligencia artificial para el desarrol
 
 ---
 
-### 🧪 Taller 3 – Laboratorio **LIS**
+###  Taller 3 – Laboratorio **LIS**
 **Introducción a la línea de comandos**  
 **Ponentes:** Juan Carlos Sedano, Daniel Delgado Vargas.  
 
