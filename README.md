@@ -73,10 +73,12 @@ Introducción al uso de herramientas de inteligencia artificial para el desarrol
 
 ### 🧪 Taller 3 – Laboratorio **LIS**
 **Introducción a la línea de comandos**  
-**Ponente:** Juan Carlos Sedano  
+**Ponentes:** Juan Carlos Sedano, Daniel Delgado Vargas.  
 
 <p align="center">
   <img src="https://media.licdn.com/dms/image/v2/D4E03AQF1HKl24sBOfQ/profile-displayphoto-crop_800_800/B4EZ3R3mF4KMAI-/0/1777342506046?e=1780531200&v=beta&t=HTqrVmOSwZj62l9Jbl6bEcd2Dr0RYl1Mh2rt6mp-0sE" alt="Juan Carlos Sedano" width="220"/>
+   &nbsp;&nbsp;
+  <img src="https://media.licdn.com/dms/image/v2/C5603AQHIQwjinkCI4g/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1561685693999?e=1780531200&v=beta&t=pEQ4WRlg9eA-BtqIqrBdokFmzCYx2uS7KKy-FJic0Zg" width="220"/>
 </p>
 
 **Descripción:**  
