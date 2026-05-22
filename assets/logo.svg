@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" role="img" aria-label="Tec Tech Day logo">
+  <!-- Bracket-T mark: dev brackets framing a stylized T -->
+  <path d="M14 10 L6 10 L6 54 L14 54" stroke="currentColor" stroke-width="3" stroke-linecap="square" stroke-linejoin="miter"/>
+  <path d="M50 10 L58 10 L58 54 L50 54" stroke="currentColor" stroke-width="3" stroke-linecap="square" stroke-linejoin="miter"/>
+  <path d="M20 22 L44 22" stroke="currentColor" stroke-width="3" stroke-linecap="square"/>
+  <path d="M32 22 L32 46" stroke="currentColor" stroke-width="3" stroke-linecap="square"/>
+  <circle cx="32" cy="50" r="2.2" fill="#A3E635"/>
+</svg>

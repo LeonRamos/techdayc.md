@@ -1,6 +1,6 @@
 # Tec Tech Day 2026 — Landing
 
-Sitio estático del evento académico **Tec Tech Day 2026**, organizado por el **TSJ Zapopan** y la **academia ISC** para estudiantes de Ingeniería en Sistemas Computacionales.
+Sitio estático del evento académico **Tec Tech Day 2026**, organizado por  **GDLDevComms** y la **academia ISC del TSJ Zapopan** para estudiantes de Ingeniería en Sistemas Computacionales.
 
 - **Fecha:** 28 de mayo de 2026
 - **Sede:** Edificio “L”, Laboratorios de Sistemas
@@ -165,7 +165,7 @@ Si en el futuro quieres usar la imagen institucional `TSJ1.png`:
 | Nombre           | Tec Tech Day 2026                                                        |
 | Fecha            | 28 / 05 / 2026                                                           |
 | Público          | Estudiantes ISC                                                          |
-| Organiza         | TSJ Zapopan · Academia ISC                                               |
+| Organiza         | GDLDevComms · Academia ISC                                               |
 | Registro         | <https://forms.gle/TuuN6CB5kGeCkYbu8>                                    |
 | Encuesta         | <https://forms.gle/U7kh5zRiP5eq29es6>                                    |
 | Sede             | Edificio “L”, Laboratorios de Sistemas                                   |
