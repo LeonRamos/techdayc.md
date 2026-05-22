@@ -1,0 +1,912 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#0B0D0E" />
+    <meta name="color-scheme" content="dark" />
+
+    <title>Tec Tech Day 2026 — TSJ Zapopan · 28.05.2026</title>
+    <meta
+      name="description"
+      content="Tec Tech Day 2026: jornada técnica para estudiantes de Ingeniería en Sistemas Computacionales en TSJ Zapopan. Talleres de mobile, IA con GitHub Copilot, Claude y línea de comandos. 28 de mayo de 2026."
+    />
+    <meta name="author" content="Academia ISC — TSJ Zapopan" />
+    <meta name="keywords" content="Tec Tech Day, TSJ Zapopan, ISC, Sistemas Computacionales, talleres, GitHub Copilot, Claude, Android, línea de comandos, 2026" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Tec Tech Day 2026 — TSJ Zapopan" />
+    <meta
+      property="og:description"
+      content="Jornada técnica para estudiantes ISC. Talleres simultáneos de mobile, IA y línea de comandos. 28 de mayo de 2026 · Edificio L."
+    />
+    <meta property="og:locale" content="es_MX" />
+    <meta property="og:image" content="assets/og.svg" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Tec Tech Day 2026 — TSJ Zapopan" />
+    <meta
+      name="twitter:description"
+      content="Jornada técnica ISC · 28.05.2026 · Edificio L, Laboratorios de Sistemas."
+    />
+
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+    <!-- Decorative grid background -->
+    <div class="bg-grid" aria-hidden="true"></div>
+    <div class="bg-glow" aria-hidden="true"></div>
+
+    <header class="nav" id="nav">
+      <div class="container nav__inner">
+        <a class="brand" href="#top" aria-label="Tec Tech Day 2026 — inicio">
+          <span class="brand__logo" aria-hidden="true">
+            <svg viewBox="0 0 64 64" fill="none" width="28" height="28">
+              <path d="M14 10 L6 10 L6 54 L14 54" stroke="currentColor" stroke-width="3" stroke-linecap="square"/>
+              <path d="M50 10 L58 10 L58 54 L50 54" stroke="currentColor" stroke-width="3" stroke-linecap="square"/>
+              <path d="M20 22 L44 22" stroke="currentColor" stroke-width="3" stroke-linecap="square"/>
+              <path d="M32 22 L32 46" stroke="currentColor" stroke-width="3" stroke-linecap="square"/>
+              <circle cx="32" cy="50" r="2.2" fill="var(--accent)"/>
+            </svg>
+          </span>
+          <span class="brand__text">
+            <span class="brand__name">Tec Tech Day</span>
+            <span class="brand__year">/ 2026</span>
+          </span>
+        </a>
+
+        <nav class="nav__links" aria-label="Navegación principal">
+          <a href="#evento">Evento</a>
+          <a href="#talleres">Talleres</a>
+          <a href="#agenda">Agenda</a>
+          <a href="#faq">FAQ</a>
+        </nav>
+
+        <div class="nav__cta">
+          <a
+            class="btn btn--primary btn--sm"
+            href="https://forms.gle/TuuN6CB5kGeCkYbu8"
+            target="_blank"
+            rel="noopener noreferrer"
+            data-cta="registro-nav"
+          >
+            Registrarme
+            <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M7 17 17 7"/><path d="M9 7h8v8"/></svg>
+          </a>
+        </div>
+
+        <button class="nav__toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="navMobile">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+      <div class="nav__mobile" id="navMobile" hidden>
+        <a href="#evento">Evento</a>
+        <a href="#talleres">Talleres</a>
+        <a href="#agenda">Agenda</a>
+        <a href="#faq">FAQ</a>
+        <a
+          class="btn btn--primary"
+          href="https://forms.gle/TuuN6CB5kGeCkYbu8"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Registrarme →</a
+        >
+      </div>
+    </header>
+
+    <main id="contenido">
+      <!-- HERO -->
+      <section class="hero" id="top">
+        <div class="container hero__inner">
+          <p class="eyebrow" data-reveal>
+            <span class="dot"></span>
+            <span class="mono">tsj_zapopan / academia_isc</span>
+          </p>
+
+          <h1 class="hero__title" data-reveal>
+            <span class="hero__line">Tec Tech</span>
+            <span class="hero__line hero__line--accent">Day<span class="cursor" aria-hidden="true"></span></span>
+            <span class="hero__year">2026</span>
+          </h1>
+
+          <p class="hero__lead" data-reveal>
+            Una jornada técnica para estudiantes de
+            <strong>Ingeniería en Sistemas Computacionales</strong>. Talleres
+            simultáneos de desarrollo móvil, IA aplicada al código y
+            fundamentos de la línea de comandos.
+          </p>
+
+          <div class="hero__meta" data-reveal>
+            <div class="meta-card">
+              <span class="meta-card__label mono">// fecha</span>
+              <span class="meta-card__value">28 · 05 · 2026</span>
+            </div>
+            <div class="meta-card">
+              <span class="meta-card__label mono">// sede</span>
+              <span class="meta-card__value">Edificio L · Labs Sistemas</span>
+            </div>
+            <div class="meta-card">
+              <span class="meta-card__label mono">// horario</span>
+              <span class="meta-card__value">9:00 – 12:00</span>
+            </div>
+          </div>
+
+          <div class="hero__ctas" data-reveal>
+            <a
+              class="btn btn--primary btn--lg"
+              href="https://forms.gle/TuuN6CB5kGeCkYbu8"
+              target="_blank"
+              rel="noopener noreferrer"
+              data-cta="registro-hero"
+            >
+              Registrarme al evento
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg>
+            </a>
+            <a
+              class="btn btn--ghost btn--lg"
+              href="https://forms.gle/U7kh5zRiP5eq29es6"
+              target="_blank"
+              rel="noopener noreferrer"
+              data-cta="encuesta-hero"
+            >
+              Encuesta de participación
+            </a>
+          </div>
+
+          <!-- Countdown -->
+          <div class="countdown" id="countdown" aria-live="polite" data-reveal>
+            <span class="countdown__label mono">// cuenta regresiva</span>
+            <div class="countdown__grid" role="timer">
+              <div class="countdown__cell">
+                <span class="countdown__num" data-cd="days">--</span>
+                <span class="countdown__unit mono">días</span>
+              </div>
+              <div class="countdown__cell">
+                <span class="countdown__num" data-cd="hours">--</span>
+                <span class="countdown__unit mono">hrs</span>
+              </div>
+              <div class="countdown__cell">
+                <span class="countdown__num" data-cd="minutes">--</span>
+                <span class="countdown__unit mono">min</span>
+              </div>
+              <div class="countdown__cell">
+                <span class="countdown__num" data-cd="seconds">--</span>
+                <span class="countdown__unit mono">seg</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- EVENTO -->
+      <section class="section" id="evento">
+        <div class="container section__inner">
+          <header class="section__head" data-reveal>
+            <span class="kicker mono">01 / evento</span>
+            <h2 class="section__title">¿Qué es Tec Tech Day?</h2>
+            <p class="section__sub">
+              Un día completo de talleres prácticos donde la academia ISC del
+              TSJ Zapopan acerca a las y los estudiantes a las herramientas
+              que se usan hoy en la industria del software.
+            </p>
+          </header>
+
+          <div class="feature-grid">
+            <article class="feature" data-reveal>
+              <span class="feature__num mono">→ 01</span>
+              <h3 class="feature__title">Práctica, no diapositivas</h3>
+              <p class="feature__desc">
+                Tres talleres simultáneos en los laboratorios LIA, LTI y LIS.
+                Llegas con tu equipo y sales con un proyecto funcionando.
+              </p>
+            </article>
+            <article class="feature" data-reveal>
+              <span class="feature__num mono">→ 02</span>
+              <h3 class="feature__title">Tema actual del mercado</h3>
+              <p class="feature__desc">
+                Desarrollo móvil en Android, IA aplicada al código con GitHub
+                Copilot y Claude, y dominio de la terminal.
+              </p>
+            </article>
+            <article class="feature" data-reveal>
+              <span class="feature__num mono">→ 03</span>
+              <h3 class="feature__title">Hecho por la academia</h3>
+              <p class="feature__desc">
+                Organizado por el <strong>TSJ Zapopan</strong> y la
+                <strong>academia ISC</strong>, con ponentes que ejercen en la
+                industria.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- TALLERES -->
+      <section class="section section--alt" id="talleres">
+        <div class="container section__inner">
+          <header class="section__head" data-reveal>
+            <span class="kicker mono">02 / talleres</span>
+            <h2 class="section__title">Talleres simultáneos</h2>
+            <p class="section__sub">
+              9:00 am – 12:00 pm · Edificio L, Laboratorios de Sistemas.
+              Cada estudiante elige un taller al registrarse.
+            </p>
+          </header>
+
+          <div class="workshops">
+            <!-- Taller 1 -->
+            <article class="workshop" data-reveal>
+              <header class="workshop__head">
+                <span class="workshop__lab mono">LAB / LIA</span>
+                <span class="workshop__index mono">01</span>
+              </header>
+              <h3 class="workshop__title">Tu primera app mobile</h3>
+              <p class="workshop__desc">
+                Taller práctico orientado a estudiantes que desean iniciar en
+                el desarrollo de aplicaciones móviles. Se abordarán conceptos
+                básicos de estructura, interfaz de usuario y ejecución de una
+                app funcional en Android.
+              </p>
+
+              <div class="workshop__speakers">
+                <div class="speaker">
+                  <img
+                    class="speaker__img"
+                    src="https://media.licdn.com/dms/image/v2/D5603AQE3yaSzkCb5Bg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1695858759153?e=1780531200&v=beta&t=JECta7ceJAlo5lPSEQRCZsLMPNzf4GiaY7WihTvpSxw"
+                    alt="Foto de Sinuhe Jaime Valencia"
+                    loading="lazy"
+                    referrerpolicy="no-referrer"
+                    onerror="this.classList.add('speaker__img--fallback'); this.removeAttribute('src');"
+                  />
+                  <div>
+                    <span class="speaker__name">Sinuhe Jaime Valencia</span>
+                    <span class="speaker__role mono">ponente</span>
+                  </div>
+                </div>
+              </div>
+
+              <details class="workshop__req">
+                <summary>Requerimientos</summary>
+                <ul>
+                  <li>Laptop con Windows, macOS o Linux</li>
+                  <li>Android Studio instalado</li>
+                  <li>JDK 11 o superior</li>
+                  <li>Emulador configurado o dispositivo Android con depuración USB</li>
+                </ul>
+              </details>
+            </article>
+
+            <!-- Taller 2 -->
+            <article class="workshop" data-reveal>
+              <header class="workshop__head">
+                <span class="workshop__lab mono">LAB / LTI</span>
+                <span class="workshop__index mono">02</span>
+              </header>
+              <h3 class="workshop__title">
+                GitHub Copilot &amp; Claude: from the beginning to build a small service
+              </h3>
+              <p class="workshop__desc">
+                Introducción al uso de herramientas de inteligencia artificial
+                para el desarrollo de software. Los participantes aprenderán
+                cómo GitHub Copilot y Claude pueden asistir en la generación
+                de código y construcción de un pequeño servicio.
+              </p>
+
+              <div class="workshop__speakers">
+                <div class="speaker">
+                  <img
+                    class="speaker__img"
+                    src="https://media.licdn.com/dms/image/v2/D4E03AQHTvmLJQ7Bzqg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1712279240675?e=1780531200&v=beta&t=2EDeNbdB7fZZFtairIO-i7rqtR3MuBB6LRLbL7ndLik"
+                    alt="Foto de Orlando Cano"
+                    loading="lazy"
+                    referrerpolicy="no-referrer"
+                    onerror="this.classList.add('speaker__img--fallback'); this.removeAttribute('src');"
+                  />
+                  <div>
+                    <span class="speaker__name">Orlando Cano</span>
+                    <span class="speaker__role mono">ponente</span>
+                  </div>
+                </div>
+                <div class="speaker">
+                  <img
+                    class="speaker__img"
+                    src="https://media.licdn.com/dms/image/v2/D4E03AQH1WkW99cy4yA/profile-displayphoto-crop_800_800/B4EZ3UnVf0KMAQ-/0/1777388578223?e=1780531200&v=beta&t=scRgWFY0XuLfG74XYo0yfVX1P0YJa2_apXfxrljpaOc"
+                    alt="Foto de Christian Gómez"
+                    loading="lazy"
+                    referrerpolicy="no-referrer"
+                    onerror="this.classList.add('speaker__img--fallback'); this.removeAttribute('src');"
+                  />
+                  <div>
+                    <span class="speaker__name">Christian Gómez</span>
+                    <span class="speaker__role mono">ponente</span>
+                  </div>
+                </div>
+              </div>
+
+              <details class="workshop__req">
+                <summary>Requerimientos</summary>
+                <ul>
+                  <li>Laptop con acceso a internet</li>
+                  <li>Cuenta activa en GitHub</li>
+                  <li>Visual Studio Code instalado</li>
+                  <li>Extensión GitHub Copilot configurada</li>
+                  <li>Navegador web actualizado</li>
+                </ul>
+              </details>
+            </article>
+
+            <!-- Taller 3 -->
+            <article class="workshop" data-reveal>
+              <header class="workshop__head">
+                <span class="workshop__lab mono">LAB / LIS</span>
+                <span class="workshop__index mono">03</span>
+              </header>
+              <h3 class="workshop__title">Introducción a la línea de comandos</h3>
+              <p class="workshop__desc">
+                Taller introductorio para el uso eficiente de la línea de
+                comandos en distintos sistemas operativos. Se revisarán
+                comandos esenciales para la navegación de directorios, manejo
+                de archivos y tareas básicas de automatización.
+              </p>
+
+              <div class="workshop__speakers">
+                <div class="speaker">
+                  <img
+                    class="speaker__img"
+                    src="https://media.licdn.com/dms/image/v2/D4E03AQF1HKl24sBOfQ/profile-displayphoto-crop_800_800/B4EZ3R3mF4KMAI-/0/1777342506046?e=1780531200&v=beta&t=HTqrVmOSwZj62l9Jbl6bEcd2Dr0RYl1Mh2rt6mp-0sE"
+                    alt="Foto de Juan Carlos Sedano"
+                    loading="lazy"
+                    referrerpolicy="no-referrer"
+                    onerror="this.classList.add('speaker__img--fallback'); this.removeAttribute('src');"
+                  />
+                  <div>
+                    <span class="speaker__name">Juan Carlos Sedano</span>
+                    <span class="speaker__role mono">ponente</span>
+                  </div>
+                </div>
+                <div class="speaker">
+                  <img
+                    class="speaker__img"
+                    src="https://media.licdn.com/dms/image/v2/C5603AQHIQwjinkCI4g/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1561685693999?e=1780531200&v=beta&t=pEQ4WRlg9eA-BtqIqrBdokFmzCYx2uS7KKy-FJic0Zg"
+                    alt="Foto de Daniel Delgado Vargas"
+                    loading="lazy"
+                    referrerpolicy="no-referrer"
+                    onerror="this.classList.add('speaker__img--fallback'); this.removeAttribute('src');"
+                  />
+                  <div>
+                    <span class="speaker__name">Daniel Delgado Vargas</span>
+                    <span class="speaker__role mono">ponente</span>
+                  </div>
+                </div>
+              </div>
+
+              <details class="workshop__req">
+                <summary>Requerimientos</summary>
+                <ul>
+                  <li>Laptop con Windows, Linux o macOS</li>
+                  <li>Terminal instalada (PowerShell, Bash o equivalente)</li>
+                  <li>Conocimientos básicos de uso de computadora</li>
+                </ul>
+              </details>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- AGENDA / CONFERENCIAS -->
+      <section class="section" id="agenda">
+        <div class="container section__inner">
+          <header class="section__head" data-reveal>
+            <span class="kicker mono">03 / agenda</span>
+            <h2 class="section__title">Conferencias</h2>
+            <p class="section__sub">
+              Sede: Edificio “L”, Laboratorios de Sistemas. El programa
+              detallado se publicará en esta misma página.
+            </p>
+          </header>
+
+          <div class="agenda" data-reveal>
+            <div class="agenda__row agenda__row--head">
+              <span class="mono">Horario</span>
+              <span class="mono">Tema</span>
+              <span class="mono">Ponente</span>
+            </div>
+            <div class="agenda__row">
+              <span class="agenda__time mono">— : —</span>
+              <span class="agenda__topic">Por definir</span>
+              <span class="agenda__speaker">Por definir</span>
+            </div>
+            <div class="agenda__row">
+              <span class="agenda__time mono">— : —</span>
+              <span class="agenda__topic">Por definir</span>
+              <span class="agenda__speaker">Por definir</span>
+            </div>
+            <div class="agenda__row">
+              <span class="agenda__time mono">— : —</span>
+              <span class="agenda__topic">Por definir</span>
+              <span class="agenda__speaker">Por definir</span>
+            </div>
+          </div>
+
+          <p class="agenda__note mono" data-reveal>
+            <span class="dot"></span> Programa en construcción · última
+            actualización: agenda preliminar
+          </p>
+        </div>
+      </section>
+
+      <!-- CTA -->
+      <section class="section cta-section" id="cta">
+        <div class="container">
+          <div class="cta-card" data-reveal>
+            <div class="cta-card__text">
+              <span class="kicker mono">// asegura tu lugar</span>
+              <h2>
+                Los talleres tienen
+                <span class="accent">cupo limitado</span>.
+              </h2>
+              <p>
+                El registro es gratuito y se realiza vía formulario oficial.
+                Te recomendamos también responder la encuesta de
+                participación.
+              </p>
+            </div>
+            <div class="cta-card__actions">
+              <a
+                class="btn btn--primary btn--lg"
+                href="https://forms.gle/TuuN6CB5kGeCkYbu8"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-cta="registro-cta"
+              >
+                Formulario de registro
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M7 17 17 7"/><path d="M9 7h8v8"/></svg>
+              </a>
+              <a
+                class="btn btn--ghost btn--lg"
+                href="https://forms.gle/U7kh5zRiP5eq29es6"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-cta="encuesta-cta"
+              >
+                Responder encuesta
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M7 17 17 7"/><path d="M9 7h8v8"/></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- FAQ -->
+      <section class="section" id="faq">
+        <div class="container section__inner">
+          <header class="section__head" data-reveal>
+            <span class="kicker mono">04 / faq</span>
+            <h2 class="section__title">Preguntas frecuentes</h2>
+          </header>
+
+          <div class="faq" data-reveal>
+            <details class="faq__item">
+              <summary>¿Quién puede asistir?</summary>
+              <p>
+                El evento está dirigido a estudiantes del área de Sistemas
+                Computacionales del TSJ Zapopan.
+              </p>
+            </details>
+            <details class="faq__item">
+              <summary>¿Tiene costo?</summary>
+              <p>
+                No. El acceso es gratuito, sólo necesitas registrarte mediante
+                el formulario oficial.
+              </p>
+            </details>
+            <details class="faq__item">
+              <summary>¿Puedo asistir a más de un taller?</summary>
+              <p>
+                Los talleres son <strong>simultáneos</strong>, por lo que
+                deberás elegir uno al momento de tu registro.
+              </p>
+            </details>
+            <details class="faq__item">
+              <summary>¿Necesito traer mi propio equipo?</summary>
+              <p>
+                Sí. Cada taller indica sus requerimientos de software y
+                hardware. Llega con tu laptop ya configurada para
+                aprovechar al máximo la sesión.
+              </p>
+            </details>
+            <details class="faq__item">
+              <summary>¿Dónde se realiza?</summary>
+              <p>
+                En el <strong>Edificio “L”</strong>, Laboratorios de Sistemas
+                (LIA, LTI y LIS), del TSJ Zapopan.
+              </p>
+            </details>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__inner">
+        <div class="footer__brand">
+          <span class="brand__logo" aria-hidden="true">
+            <svg viewBox="0 0 64 64" fill="none" width="24" height="24">
+              <path d="M14 10 L6 10 L6 54 L14 54" stroke="currentColor" stroke-width="3" stroke-linecap="square"/>
+              <path d="M50 10 L58 10 L58 54 L50 54" stroke="currentColor" stroke-width="3" stroke-linecap="square"/>
+              <path d="M20 22 L44 22" stroke="currentColor" stroke-width="3" stroke-linecap="square"/>
+              <path d="M32 22 L32 46" stroke="currentColor" stroke-width="3" stroke-linecap="square"/>
+              <circle cx="32" cy="50" r="2.2" fill="var(--accent)"/>
+            </svg>
+          </span>
+          <div>
+            <p class="footer__title">Tec Tech Day 2026</p>
+            <p class="mono footer__sub">organiza · tsj_zapopan / academia_isc</p>
+          </div>
+        </div>
+
+        <div class="footer__links">
+          <a
+            href="https://forms.gle/TuuN6CB5kGeCkYbu8"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Registro</a
+          >
+          <a
+            href="https://forms.gle/U7kh5zRiP5eq29es6"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Encuesta</a
+          >
+          <a href="#talleres">Talleres</a>
+        </div>
+
+        <p class="footer__legal mono">
+          © <span id="year">2026</span> · TSJ Zapopan · Academia ISC. Sitio
+          construido con HTML, CSS y JS.
+        </p>
+      </div>
+    </footer>
+
+    <script src="script.js" defer></script>
+  <script data-pplx-inline-edit>
+(function () {
+  if (window === window.top) return;
+
+  const allowedParentOrigins = ["https://www.perplexity.ai","https://perplexity.ai","https://testing.perplexity.ai","https://staging.perplexity.ai","https://*.preview.i.perplexity.ai","http://localhost:3000","http://127.0.0.1:3000","http://localhost:5173","http://127.0.0.1:5173"];
+  const MAX_FONT_BYTES = 500 * 1024;
+  const MAX_TOTAL_FONT_BYTES = 2 * 1024 * 1024;
+  let scrollForwarding = false;
+  let scrollRaf = 0;
+  let trustedTopOrigin = null;
+
+  // Allow entries like "https://*.preview.i.perplexity.ai" — the wildcard
+  // matches a single DNS label (no dots), so "https://*.foo" cannot stretch
+  // across multiple labels.
+  function matchesAllowedOrigin(origin) {
+    if (!origin) return false;
+    for (const entry of allowedParentOrigins) {
+      if (!entry.includes("*")) {
+        if (entry === origin) return true;
+        continue;
+      }
+      const pattern = new RegExp(
+        "^" +
+          entry.replace(/[.+?^${}()|[\]\\]/g, "\\$&").replace(/\*/g, "[^.]+") +
+          "$",
+      );
+      if (pattern.test(origin)) return true;
+    }
+    return false;
+  }
+
+  // Trust decision: when the sender is same-origin-visible (event.origin is a
+  // real origin like https://www.perplexity.ai) we trust event.origin directly.
+  // When event.origin is "null" (opaque broker srcdoc), we fall back to the
+  // broker's stamped `parentOrigin` to identify the top window. The fallback
+  // is claim-only — we rely on the browser's native `targetOrigin` enforcement
+  // on the response path (see postToTrustedTop) to ensure replies can't be
+  // delivered to anyone but the actual top window of that claimed origin.
+  function getTrustedParentOrigin(event) {
+    const forwardedParentOrigin =
+      typeof event.data.parentOrigin === "string" ? event.data.parentOrigin : null;
+    const parentOrigin = event.origin === "null" ? forwardedParentOrigin : event.origin;
+    return matchesAllowedOrigin(parentOrigin) ? parentOrigin : null;
+  }
+
+  // All responses go to window.top with targetOrigin = the allowlisted origin.
+  // An attacker that iframes us inside their own null-origin broker can claim
+  // any parentOrigin they like, but the browser will drop the reply whenever
+  // the real top's origin doesn't match — so the screenshot never leaves.
+  function postToTrustedTop(message) {
+    if (!trustedTopOrigin) return;
+    try {
+      window.top.postMessage(message, trustedTopOrigin);
+    } catch (_error) {}
+  }
+
+  function inlineAll(original, clone) {
+    if (original.nodeType !== 1 || clone.nodeType !== 1) return;
+
+    try {
+      const computedStyle = getComputedStyle(original);
+      // cssText on a computed style is the serialized declaration in modern
+      // Chromium/Safari — a single read beats enumerating ~400 longhand
+      // properties. Firefox returns "" here, so we fall back on empty.
+      const serialized = computedStyle.cssText;
+      if (serialized) {
+        clone.style.cssText = serialized;
+      } else {
+        const parts = new Array(computedStyle.length);
+        for (let index = 0; index < computedStyle.length; index += 1) {
+          const property = computedStyle[index];
+          parts[index] = `${property}:${computedStyle.getPropertyValue(property)};`;
+        }
+        clone.style.cssText = parts.join("");
+      }
+    } catch (_error) {}
+
+    const originalChildren = original.children;
+    const clonedChildren = clone.children;
+    for (
+      let index = 0;
+      index < originalChildren.length && index < clonedChildren.length;
+      index += 1
+    ) {
+      inlineAll(originalChildren[index], clonedChildren[index]);
+    }
+  }
+
+  function extractFontUrl(srcValue) {
+    const matches = [
+      ...srcValue.matchAll(
+        /url\(["']?([^"')]+)["']?\)(?:\s*format\(["']?([^"')]+)["']?\))?/gi,
+      ),
+    ];
+    if (matches.length === 0) return null;
+    const woff2 = matches.find((m) => m[2] && m[2].toLowerCase().includes("woff2"));
+    if (woff2) return woff2[1];
+    const woff = matches.find((m) => m[2] && m[2].toLowerCase().includes("woff"));
+    if (woff) return woff[1];
+    return matches[0][1];
+  }
+
+  // Cache resolved font URL -> data URI across captures. Fonts on a page
+  // essentially never change, and a batch run emits multiple captures back to
+  // back — without this we'd refetch + re-base64 every time.
+  const fontDataUriCache = new Map();
+  const SRC_DECLARATION_RE = /src\s*:\s*[^;}]+/i;
+
+  async function fetchAsDataUri(url) {
+    if (fontDataUriCache.has(url)) return fontDataUriCache.get(url);
+    let dataUri = null;
+    try {
+      const response = await fetch(url, { mode: "cors", credentials: "omit" });
+      if (response.ok) {
+        const blob = await response.blob();
+        if (blob.size <= MAX_FONT_BYTES) {
+          dataUri = await new Promise((resolve) => {
+            const reader = new FileReader();
+            reader.onloadend = () =>
+              resolve(typeof reader.result === "string" ? reader.result : null);
+            reader.onerror = () => resolve(null);
+            reader.readAsDataURL(blob);
+          });
+        }
+      }
+    } catch (_error) {
+      dataUri = null;
+    }
+    fontDataUriCache.set(url, dataUri);
+    return dataUri;
+  }
+
+  function collectFontFaceRuleTexts() {
+    const rules = [];
+    for (const sheet of document.styleSheets) {
+      let cssRules;
+      try {
+        cssRules = sheet.cssRules;
+      } catch (_error) {
+        continue;
+      }
+      if (!cssRules) continue;
+      for (const rule of cssRules) {
+        const cssText = rule.cssText || "";
+        if (cssText.startsWith("@font-face")) rules.push(cssText);
+      }
+    }
+    return rules;
+  }
+
+  async function buildInlinedFontCss() {
+    const ruleTexts = collectFontFaceRuleTexts();
+    if (ruleTexts.length === 0) return null;
+
+    const resolved = ruleTexts.map((cssText) => {
+      if (!SRC_DECLARATION_RE.test(cssText)) return null;
+      const srcMatch = cssText.match(/src\s*:\s*([^;}]+)[;}]/i);
+      if (!srcMatch) return null;
+      const url = extractFontUrl(srcMatch[1]);
+      if (!url) return null;
+      try {
+        return { cssText, url: new URL(url, document.baseURI).href };
+      } catch (_error) {
+        return null;
+      }
+    });
+
+    const dataUris = await Promise.all(
+      resolved.map((entry) => (entry ? fetchAsDataUri(entry.url) : Promise.resolve(null))),
+    );
+
+    const inlined = [];
+    let totalBytes = 0;
+    for (let index = 0; index < resolved.length; index += 1) {
+      const entry = resolved[index];
+      const dataUri = dataUris[index];
+      if (!entry || !dataUri) continue;
+      const approxBytes = dataUri.length * 0.75;
+      if (totalBytes + approxBytes > MAX_TOTAL_FONT_BYTES) break;
+      totalBytes += approxBytes;
+      inlined.push(entry.cssText.replace(SRC_DECLARATION_RE, `src: url("${dataUri}")`));
+    }
+    return inlined.length > 0 ? inlined.join("\n") : null;
+  }
+
+  function stripExternal(clone) {
+    const images = clone.querySelectorAll("img");
+    for (let index = 0; index < images.length; index += 1) {
+      const src = images[index].getAttribute("src");
+      if (src && !src.startsWith("data:")) images[index].removeAttribute("src");
+    }
+
+    const elements = clone.querySelectorAll("*");
+    for (let index = 0; index < elements.length; index += 1) {
+      const style = elements[index].style.cssText;
+      if (style && style.includes("url(")) {
+        elements[index].style.cssText = style.replace(
+          /url\(["']?(?!data:)[^)"']*["']?\)/gi,
+          "none",
+        );
+      }
+    }
+  }
+
+  function emitScroll() {
+    scrollRaf = 0;
+    if (!scrollForwarding) return;
+    postToTrustedTop({
+      type: "INLINE_EDIT_SCROLL",
+      scrollX: window.scrollX,
+      scrollY: window.scrollY,
+    });
+  }
+
+  window.addEventListener(
+    "scroll",
+    function () {
+      if (!scrollForwarding || scrollRaf) return;
+      scrollRaf = requestAnimationFrame(emitScroll);
+    },
+    { passive: true, capture: true },
+  );
+
+  async function handleCaptureRequest(event) {
+    const requestId = event.data.requestId;
+    const scrollX = window.scrollX;
+    const scrollY = window.scrollY;
+    const width = window.innerWidth;
+    const height = window.innerHeight;
+
+    function postResult(dataUrl) {
+      postToTrustedTop({
+        type: "INLINE_EDIT_SCREENSHOT_RESULT",
+        requestId,
+        dataUrl,
+        scrollX,
+        scrollY,
+      });
+    }
+
+    try {
+      // Wait for any pending web fonts to resolve so both inline metrics and
+      // the @font-face inlining below see the same loaded faces.
+      if (document.fonts && document.fonts.ready) {
+        try {
+          await document.fonts.ready;
+        } catch (_error) {}
+      }
+
+      const clone = document.documentElement.cloneNode(true);
+      inlineAll(document.documentElement, clone);
+
+      const removedNodes = clone.querySelectorAll("script,link[rel=\"stylesheet\"],style");
+      for (let index = 0; index < removedNodes.length; index += 1) {
+        removedNodes[index].remove();
+      }
+
+      stripExternal(clone);
+
+      // Re-embed web fonts as data-URI @font-face rules so the SVG rasterizer
+      // can resolve them — external font URLs aren't fetched during
+      // foreignObject rendering, which would otherwise force a fallback face
+      // and change text metrics.
+      const inlinedFontCss = await buildInlinedFontCss();
+      if (inlinedFontCss) {
+        const styleEl = document.createElement("style");
+        styleEl.textContent = inlinedFontCss;
+        const head = clone.querySelector("head");
+        if (head) head.appendChild(styleEl);
+        else clone.insertBefore(styleEl, clone.firstChild);
+      }
+
+      const html = new XMLSerializer().serializeToString(clone);
+      const svg =
+        `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}">` +
+        '<foreignObject width="100%" height="100%">' +
+        `<div xmlns="http://www.w3.org/1999/xhtml" style="width:${width}px;height:${height}px;overflow:hidden">` +
+        `<div style="position:relative;left:-${scrollX}px;top:-${scrollY}px">` +
+        html +
+        "</div></div></foreignObject></svg>";
+      const svgUrl = `data:image/svg+xml;charset=utf-8,${encodeURIComponent(svg)}`;
+      const image = new Image();
+      image.onload = function () {
+        const canvas = document.createElement("canvas");
+        canvas.width = width;
+        canvas.height = height;
+        canvas.getContext("2d").drawImage(image, 0, 0);
+        postResult(canvas.toDataURL("image/png"));
+      };
+      image.onerror = function () {
+        postResult(null);
+      };
+      image.src = svgUrl;
+    } catch (_error) {
+      postResult(null);
+    }
+  }
+
+  window.addEventListener("message", function (event) {
+    if (!event.data) return;
+    // Only accept messages from the direct parent frame. Blocks sibling /
+    // unrelated-window postMessage senders that could otherwise reach us.
+    if (event.source !== window.parent) return;
+
+    const trustedParentOrigin = getTrustedParentOrigin(event);
+    if (!trustedParentOrigin) return;
+    trustedTopOrigin = trustedParentOrigin;
+
+    if (event.data.type === "INLINE_EDIT_SCROLL_START") {
+      scrollForwarding = true;
+      emitScroll();
+      return;
+    }
+
+    if (event.data.type === "INLINE_EDIT_SCROLL_STOP") {
+      scrollForwarding = false;
+      if (scrollRaf) cancelAnimationFrame(scrollRaf);
+      scrollRaf = 0;
+      return;
+    }
+
+    if (event.data.type !== "INLINE_EDIT_CAPTURE_REQUEST") return;
+
+    handleCaptureRequest(event);
+  });
+})();
+
+
+</script></body>
+</html>

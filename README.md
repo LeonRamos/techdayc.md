@@ -1,96 +1,199 @@
-<br>
-<!--<div style="background-color:#d4edda; border-left:5px solid #28a745; padding:10px; margin-bottom:15px;">
-  <strong>¡Gracias por su interés en Techday 2026! ¡Nos vemos el próximo año!</strong>
-</div> -->
+# Tec Tech Day 2026 — Landing
 
-<p align="center">
-  <img src="TSJ1.png" alt="Java Tec Day" width="600"/>
-</p>
+Sitio estático del evento académico **Tec Tech Day 2026**, organizado por el **TSJ Zapopan** y la **academia ISC** para estudiantes de Ingeniería en Sistemas Computacionales.
 
-# Techday 2026 Zapopan 28.05.26
-## [REGISTRO <------ AQUÍ](https://forms.gle/TuuN6CB5kGeCkYbu8)
+- **Fecha:** 28 de mayo de 2026
+- **Sede:** Edificio “L”, Laboratorios de Sistemas
+- **Talleres simultáneos:** 9:00 a 12:00 (LIA, LTI, LIS)
 
-## [ENCUESTA DE PARTICIPACIÓN <------ AQUÍ](https://forms.gle/U7kh5zRiP5eq29es6)
----
-
-##  CONFERENCIAS
-Edificio "L" Laboratorios de Sistemas*
-
-|  Horario |  Tema |  Ponente |
-|:------------:|:-------------------------:|:------------------------:|
-| Por definir | Por definir | Por definir |
-
----
-<p align="center">
-  <img src="https://scontent-qro1-2.xx.fbcdn.net/v/t39.30808-6/302440543_523645689763563_6615114239918510135_n.png?_nc_cat=101&ccb=1-7&_nc_sid=cc71e4&_nc_eui2=AeET2oCqgzl0cY89Zq_6EuY-vpgm11ZNwVm-mCbXVk3BWTgKG3Xcn9IMH0h3xUamPaFVyqgkvl4NOO1fQhIT3Jgq&_nc_ohc=V19Ohn-OcsoQ7kNvwFxvzWJ&_nc_oc=AdrhEa0QO-v_4ELLlP9KNqEE5OCru1hBqumXZEeUmR-qyv9IaDoAsPrUBNpli9aPFWw&_nc_zt=23&_nc_ht=scontent-qro1-2.xx&_nc_gid=lkHi24VTMMIE6k3aNDIZ2Q&_nc_ss=7b2a8&oh=00_Af6H3su7VBMJc-tKbfMfBqYFM7KyrpPDaTCEwgpTFwhpTw&oe=6A0A4085" alt="GDL Dev Comms" width="600"/>
-</p>
-
-##  ¡TALLERES SIMULTÁNEOS 9:00 am a 12:00 pm!
-Edificio "L" Laboratorios de Sistemas*
+Hecho con **HTML, CSS y JavaScript puros** — sin frameworks, sin paso de build. Listo para publicarse en **GitHub Pages**.
 
 ---
 
-###  Taller 1 – Laboratorio **LIA**
-**Tu primera app mobile**  
-**Ponente:** Sinuhe Jaime Valencia  
+## Estructura del proyecto
 
-<p align="center">
-  <img src="https://media.licdn.com/dms/image/v2/D5603AQE3yaSzkCb5Bg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1695858759153?e=1780531200&v=beta&t=JECta7ceJAlo5lPSEQRCZsLMPNzf4GiaY7WihTvpSxw" alt="Sinuhe Jaime Valencia" width="220"/>
-</p>
+```
+tec-tech-day-2026/
+├── index.html        # Marcado semántico, SEO, OG, secciones
+├── styles.css        # Diseño dark-first, responsivo, tokens en :root
+├── script.js         # Countdown, nav móvil, scroll-reveal, link activo
+├── assets/
+│   ├── logo.svg      # Logo principal (inline en el sitio también)
+│   └── favicon.svg   # Favicon vectorial
+└── README.md
+```
 
-**Descripción:**  
-Taller práctico orientado a estudiantes que desean iniciar en el desarrollo de aplicaciones móviles. Se abordarán conceptos básicos de estructura, interfaz de usuario y ejecución de una app funcional en Android.
-
-**Requerimientos:**  
-- Laptop con Windows, macOS o Linux  
-- Android Studio instalado  
-- JDK 11 o superior  
-- Emulador configurado o dispositivo Android con depuración USB  
+No requiere `npm install`, ni bundler, ni servidor de aplicación.
 
 ---
 
-###  Taller 2 – Laboratorio **LTI**
-**GitHub Copilot and Claude, from the beginning to build a small service**  
-**Ponentes:** Orlando Cano, Christian Gómez  
+## Vista previa local
 
-<p align="center">
-  <img src="https://media.licdn.com/dms/image/v2/D4E03AQHTvmLJQ7Bzqg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1712279240675?e=1780531200&v=beta&t=2EDeNbdB7fZZFtairIO-i7rqtR3MuBB6LRLbL7ndLik" alt="Orlando Cano" width="220"/>
-  &nbsp;&nbsp;
-  <img src="https://media.licdn.com/dms/image/v2/D4E03AQH1WkW99cy4yA/profile-displayphoto-crop_800_800/B4EZ3UnVf0KMAQ-/0/1777388578223?e=1780531200&v=beta&t=scRgWFY0XuLfG74XYo0yfVX1P0YJa2_apXfxrljpaOc" alt="Christian Gómez" width="220"/>
-</p>
+Cualquier servidor estático sirve. Recomendado para evitar restricciones de `file://`:
 
-**Descripción:**  
-Introducción al uso de herramientas de inteligencia artificial para el desarrollo de software. Los participantes aprenderán cómo GitHub Copilot y Claude pueden asistir en la generación de código y construcción de un pequeño servicio.
+```bash
+# Python 3
+python3 -m http.server 8080
 
-**Requerimientos:**  
-- Laptop con acceso a internet  
-- Cuenta activa en GitHub  
-- Visual Studio Code instalado  
-- Extensión GitHub Copilot configurada  
-- Navegador web actualizado  
+# Node (sin instalar)
+npx serve .
+```
+
+Luego abrir <http://localhost:8080>.
 
 ---
 
-###  Taller 3 – Laboratorio **LIS**
-**Introducción a la línea de comandos**  
-**Ponentes:** Juan Carlos Sedano, Daniel Delgado Vargas.  
+## Publicar en GitHub Pages
 
-<p align="center">
-  <img src="https://media.licdn.com/dms/image/v2/D4E03AQF1HKl24sBOfQ/profile-displayphoto-crop_800_800/B4EZ3R3mF4KMAI-/0/1777342506046?e=1780531200&v=beta&t=HTqrVmOSwZj62l9Jbl6bEcd2Dr0RYl1Mh2rt6mp-0sE" alt="Juan Carlos Sedano" width="220"/>
-   &nbsp;&nbsp;
-  <img src="https://media.licdn.com/dms/image/v2/C5603AQHIQwjinkCI4g/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1561685693999?e=1780531200&v=beta&t=pEQ4WRlg9eA-BtqIqrBdokFmzCYx2uS7KKy-FJic0Zg" width="220"/>
-</p>
+### Opción A · Rama `main`, carpeta raíz (la más simple)
 
-**Descripción:**  
-Taller introductorio para el uso eficiente de la línea de comandos en distintos sistemas operativos. Se revisarán comandos esenciales para la navegación de directorios, manejo de archivos y tareas básicas de automatización.
+1. Crea un repositorio nuevo en GitHub, por ejemplo `tec-tech-day-2026`.
+2. Sube este proyecto:
 
-**Requerimientos:**  
-- Laptop con Windows, Linux o macOS  
-- Terminal instalada (PowerShell, Bash o equivalente)  
-- Conocimientos básicos de uso de computadora  
+   ```bash
+   git init
+   git add .
+   git commit -m "feat: sitio Tec Tech Day 2026"
+   git branch -M main
+   git remote add origin https://github.com/<tu-usuario>/tec-tech-day-2026.git
+   git push -u origin main
+   ```
+
+3. En GitHub, ve a **Settings → Pages**.
+4. En **Source**, elige **Deploy from a branch**.
+5. Selecciona la rama **`main`** y la carpeta **`/ (root)`**. Guarda.
+6. Espera un par de minutos. GitHub mostrará la URL pública:
+   - `https://<tu-usuario>.github.io/tec-tech-day-2026/`
+
+### Opción B · Sitio de usuario (`<usuario>.github.io`)
+
+Si quieres alojarlo en la raíz de tu dominio de GitHub:
+
+1. Crea un repo llamado **exactamente** `<tu-usuario>.github.io`.
+2. Sube los archivos (mismo procedimiento que arriba).
+3. Pages lo publicará automáticamente en `https://<tu-usuario>.github.io/`.
+
+### Opción C · GitHub Actions (opcional)
+
+Si prefieres workflow, crea `.github/workflows/pages.yml`:
+
+```yaml
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: "."
+      - id: deployment
+        uses: actions/deploy-pages@v4
+```
+
+Luego en **Settings → Pages → Build and deployment → Source** elige **GitHub Actions**.
 
 ---
 
- **Evento organizado por el TSJ Zapopan y la academia ISC**
+## Reemplazar el logo por `TSJ1.png` (si lo subes al repo)
 
- **28/05/2026**
+El sitio usa un logo SVG propio en `assets/logo.svg` y un mark inline dentro de `index.html` (header y footer) para mantenerlo nítido en cualquier resolución y respetar el modo oscuro.
+
+Si en el futuro quieres usar la imagen institucional `TSJ1.png`:
+
+1. Copia el archivo en `assets/TSJ1.png`.
+2. En `index.html`, sustituye **ambos** bloques `<svg>` dentro de `.brand__logo` (header y footer) por:
+
+   ```html
+   <img
+     src="assets/TSJ1.png"
+     alt="TSJ Zapopan"
+     width="28"
+     height="28"
+     style="border-radius: 6px; object-fit: contain;"
+   />
+   ```
+
+3. Si además quieres reemplazar el favicon, agrega un PNG de 32×32 y cambia en `<head>`:
+
+   ```html
+   <link rel="icon" type="image/png" href="assets/TSJ1.png" />
+   ```
+
+   (Puedes dejar también el `favicon.svg` como fallback.)
+
+---
+
+## Decisiones de diseño
+
+- **Dark-first** con acento lime `#A3E635` (inspirado en estética developer tipo `mouredev.pro`, `midu.dev`).
+- **Tipografías:** Inter (UI) + JetBrains Mono (labels, metadatos, "kicker").
+- **Layout:** mucho espacio negativo, tarjetas con bordes sutiles, grilla decorativa sutil de fondo.
+- **CTAs claros:** botón primario lime para registro, botón fantasma para encuesta.
+- **Microinteracciones sobrias:** countdown, hover suave en tarjetas, reveal al hacer scroll, cursor parpadeante en el hero.
+- **Accesibilidad:**
+  - Contraste WCAG AA en todos los textos sobre fondos.
+  - `:focus-visible` con anillo lime de alta visibilidad.
+  - Navegación por teclado completa, `skip-link` al contenido.
+  - HTML semántico (`header`, `main`, `section`, `article`, `footer`, `details/summary`).
+  - Respeta `prefers-reduced-motion`.
+- **SEO:** title, meta description, Open Graph y Twitter Card.
+- **Links externos:** `target="_blank"` + `rel="noopener noreferrer"`.
+- **Sin `localStorage`** ni dependencias externas (sólo Google Fonts vía CDN).
+
+---
+
+## Contenido del evento
+
+| Campo            | Valor                                                                    |
+| ---------------- | ------------------------------------------------------------------------ |
+| Nombre           | Tec Tech Day 2026                                                        |
+| Fecha            | 28 / 05 / 2026                                                           |
+| Público          | Estudiantes ISC                                                          |
+| Organiza         | TSJ Zapopan · Academia ISC                                               |
+| Registro         | <https://forms.gle/TuuN6CB5kGeCkYbu8>                                    |
+| Encuesta         | <https://forms.gle/U7kh5zRiP5eq29es6>                                    |
+| Sede             | Edificio “L”, Laboratorios de Sistemas                                   |
+| Talleres         | 9:00 – 12:00 (simultáneos)                                               |
+
+### Talleres
+
+| Lab | Título                                                        | Ponente(s)                                    |
+| --- | ------------------------------------------------------------- | --------------------------------------------- |
+| LIA | Tu primera app mobile                                         | Sinuhe Jaime Valencia                         |
+| LTI | GitHub Copilot & Claude: from the beginning to build a small service | Orlando Cano · Christian Gómez         |
+| LIS | Introducción a la línea de comandos                           | Juan Carlos Sedano · Daniel Delgado Vargas    |
+
+---
+
+## Actualizar el contenido
+
+Toda la información editable vive en `index.html`. Para cambiar:
+
+- **Horario / sede:** sección `.hero__meta` y `#agenda`.
+- **Talleres:** secciones `<article class="workshop">` en `#talleres`.
+- **Conferencias:** filas `.agenda__row` en `#agenda` (actualmente "Por definir").
+- **FAQ:** elementos `<details class="faq__item">` en `#faq`.
+
+La cuenta regresiva apunta a `28 May 2026, 09:00 UTC-6` (`script.js`, constante `EVENT_TS`).
+
+---
+
+## Licencia
+
+Material académico del **TSJ Zapopan** y la **academia ISC**. Código del sitio bajo licencia MIT — siéntete libre de usarlo de base para futuras ediciones.
